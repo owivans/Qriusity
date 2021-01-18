@@ -1,8 +1,8 @@
 // Read environment variables
 require('dotenv').config();
-
-const app = require('./server');
 require('./database');
+
+const app = require('./app');
 
 // Server is listening
 app.listen(app.get('port'), () => {

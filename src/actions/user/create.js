@@ -2,11 +2,12 @@ const User = require("../../models/User");
 
 const createUser = async (data) => {
   try {
-    console.log(User, 'User')
+    const { email } = data;
+    const userFound = await User.findOne({ email });
 
+    if (userFound) return userFound;
     const newUser = new User(data);
     const createdUser = await newUser.save();
-    console.log("Admin user created", createdUser);
     return createdUser;
   } catch (error) {
     console.log(error)
