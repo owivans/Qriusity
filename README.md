@@ -1,0 +1,2 @@
+# Qriusity
+Aplicacion de trivias
