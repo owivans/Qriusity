@@ -7,9 +7,6 @@ Entorno Back end de una applicacion de trivias
 
 Es necesario tener instalado NODE JS 
 
-```
-Da un ejemplo
-```
 
 ### Instalación 🔧
 
