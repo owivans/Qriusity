@@ -1,5 +1,13 @@
+require('dotenv').config()
+
+const {
+  MONGODB_HOST,
+  MONGODB_DB,
+  PORT,
+} = process.env;
+
 module.exports = {
-    PORT: process.env.PORT || 4000,
-    MONGODB_HOST: process.env.MONGODB_HOST || 'localhost',
-    MONGODB_DATABASE: process.env.MONGODB_DB || 'trivia_app'
+    PORT: PORT,
+    MONGODB_HOST: MONGODB_HOST,
+    MONGODB_DB: MONGODB_DB,
   }
