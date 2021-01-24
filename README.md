@@ -28,7 +28,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-Express Js fue usado como framework
+Express Js fue usado como framework y Mongo Atlas como base de datos
 
 ## Contribuyendo 🖇️
 
