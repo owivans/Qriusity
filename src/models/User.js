@@ -7,6 +7,7 @@ const UserSchema = new Schema({
   email: { type: String, required: true, unique: true },
   date: { type: Date, default: Date.now },
   avatar: { type: String },
+  score: { type: Number},
 });
 
 // UserSchema.methods.matchPassword = async function (password) {

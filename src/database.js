@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const config = require("./config");
 
-const MONGODB_URI = `mongodb+srv://qriusity_db:Cflqp0TebPelL46H@cluster0.n0hpr.mongodb.net/qriusity_db?retryWrites=true&w=majority
+const { MONGODB_HOST, MONGODB_DB } = config
+const MONGODB_URI = `mongodb+srv://${MONGODB_DB}:${MONGODB_HOST}/${MONGODB_DB}?retryWrites=true&w=majority
 `;
 
 mongoose
