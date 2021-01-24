@@ -10,11 +10,8 @@ const createUser = async (data) => {
     const createdUser = await newUser.save();
     return createdUser;
   } catch (error) {
-    console.log(error)
     throw new Error('There was error creating user');
   }
-  // const userFound = await User.findOne(data);
-  // if (userFound) return;
 };
 
 module.exports = { createUser };

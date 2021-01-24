@@ -3,7 +3,7 @@ const Quiz = require("../../models/Quiz");
 const getQuizByCategory = async ({ category, difficulty }) => {
     try {
         const quiz = await Quiz.find({
-            category:{ $eq: category}, 
+            category:{ $eq: category},
             difficulty: difficulty,
         });
         return quiz;
