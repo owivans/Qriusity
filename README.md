@@ -21,7 +21,17 @@ una vez instalado los modulos arrancamos la aplicacion:
 ```
 $ npm start
 ```
+ENV
 
+### envs de frontend
+REACT_APP_QRIUSITY_API = http://localhost:4000/api
+REACT_APP_AVATAR_API = https://avatars.dicebear.com/api/human
+
+### envs del backend
+NODE_ENV=development
+MONGODB_HOST = Cflqp0TebPelL46H@cluster0.n0hpr.mongodb.net
+MONGODB_DB = qriusity_db
+PORT = 4000
 
 
 _Agrega notas adicionales sobre como hacer deploy_
